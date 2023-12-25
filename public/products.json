@@ -1,0 +1,76 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 13 Pro",
+      "price": 19.99,
+      "image": "products/apple-iphone-13-pro-3.jpg",
+      "description": {
+        "Display": "6.1-inch Super Retina XDR display",
+        "Processor": "A15 Bionic chip",
+        "Camera": "12MP triple-camera system",
+        "Battery": "All-day battery life"
+      }  
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S22 Ultra",
+      "price": 29.99,
+      "image": "products/samsung-galaxy-s22-ultra.jpg",
+      "description": {
+        "Display": "6.8-inch Dynamic AMOLED 2X display",
+        "Processor": "Snapdragon 8 Gen 1 processor",
+        "Camera": "108MP quad-camera system",
+        "Battery": "All-day battery life"
+      }
+
+    },
+    {
+      "id": 3,
+      "name": "Google Pixel 6 Pro",
+      "price": 39.99,
+      "image": "products/google-pixel-6-pro.jpg",
+      "description": {
+        "Display": "6.7-inch AMOLED display",
+        "Processor": "Google Tensor chip",
+        "Camera": "50MP triple-camera system",
+        "Battery": "All-day battery life"
+      }
+    },
+    {
+      "id": 4,
+      "name": "OnePlus 10 Pro",
+      "price": 49.99,
+      "image": "products/oneplus-10-pro.jpg",
+      "description":  {
+        "Display": "6.7-inch AMOLED display",
+        "Processor": "Snapdragon 8 Gen 1 processor",
+        "Camera": "48MP triple-camera system",
+        "Battery": "All-day battery life"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Apple Watch Series 7",
+      "price": 59.99,
+      "image": "products/apple-watch-series-7.jpg",
+      "description":  {
+        "Display": "1.9-inch Retina display",
+        "Processor": "S7 chip",
+        "Features": "ECG, Blood Oxygen, Mindfulness app",
+        "Battery": "Up to 18 hours of battery life"
+      }
+    },
+    {
+        "id": 6,
+        "name": "Samsung Galaxy Watch 4 Classic",
+        "price": 59.99,
+        "image": "products/samsung-galaxy-watch-4-classic.jpg",
+        "description": {
+          "Display": "1.4-inch AMOLED display",
+          "Processor": "Exynos W920 chip",
+          "Features": "ECG, Blood Oxygen, Body Composition Analysis",
+          "Battery": "Up to 40 hours of battery life"
+        }
+    }
+]
+  

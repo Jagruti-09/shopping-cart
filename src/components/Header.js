@@ -8,13 +8,13 @@ const Header = () => {
   const {cart} = useContext(Cart);
   return (
     <div>
-      <span className="header">React Context API Tutorial</span>
+      
       <ul className="nav">
         <li>
-          <Link to="/">Home Page</Link>
+          <Link className="navLink" to="/">Home Page</Link>
         </li>
         <li>
-          <Link to="/cart">Cart ({cart.length})</Link>
+          <Link className="navLink" to="/cart">Cart ({cart.length})</Link>
         </li>
       </ul>
     </div>

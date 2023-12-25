@@ -1,3 +1,37 @@
+img{
+  width:300px !important;
+  height: 300px !important;
+}
+
+h2{
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  
+}
+
+.details{
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 500px;
+}
+
+.price{
+  margin: 20px;
+}
+
+.add{
+  margin: 50px;
+}
+
+.title{
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
 .header {
     display: block;
     text-align: center;
@@ -13,16 +47,28 @@
     background-color: black;
     height: 80px;
     margin-top: 0;
+    text-decoration: none !important;
   }
+
+  
   
   .nav > li {
-    color: white;
+    color: white !important;
+    text-decoration: none !important;
+
   }
   
   .nav > li:hover {
-    color: turquoise;
+    color: turquoise !important;
   }
-  
+  .navLink{
+    text-decoration: none !important;
+    color: white !important;
+  }
+
+  .navLink:hover{
+    color: turquoise !important;
+  }
   /* ----------------------- */
   
   .productContainer {
@@ -30,16 +76,28 @@
     padding: 20px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
   }
   
   .products {
     width: 25%;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    transition: transform 0.3s ease-in-out;
+    /* border: 1px solid black; */
   }
+
+  .products:hover {
+    transform: scale(1.05); /* Increase the scale on hover */
+  }
+
+ .links{
+  text-decoration: none;
+  padding: 10px;
+  
+ }
   
   .productDesc {
     display: flex;
@@ -54,4 +112,29 @@
   .remove {
     background-color: grey;
     color: white;
+  }
+
+  .cartSpan{
+    margin-left: 700px;
+    
+  }
+
+
+  .checkoutButton{
+    margin-left: 670px;
+    padding: 20px;
+  }
+
+  .checkoutTitle{
+    margin-left: 700px;
+  }
+
+  .formLabel{
+    margin-left: 680px;
+    padding: 20px;
+  }
+
+  .formButton{
+    margin-left: 700px;
+    margin-bottom: 20px;
   }
